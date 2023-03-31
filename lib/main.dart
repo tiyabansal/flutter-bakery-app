@@ -163,6 +163,9 @@ class Home extends StatelessWidget {
               /// on main and cross axis
               gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
                 crossAxisCount: 2,
+                crossAxisSpacing: 10,
+                mainAxisSpacing: 10,
+                childAspectRatio: 2/3,
               ),
               itemBuilder: (BuildContext context, index) {
                 return InkWell(
