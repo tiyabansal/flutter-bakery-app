@@ -42,12 +42,6 @@ class Home extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      floatingActionButton: FloatingActionButton(
-        onPressed: () {},
-        child: const Icon(
-          Icons.place,
-        ),
-      ),
       appBar: AppBar(
         title: const Text('Sweet Nothings'),
         centerTitle: true,
