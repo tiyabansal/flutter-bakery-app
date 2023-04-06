@@ -1,6 +1,9 @@
 # bakeryapp
 
-A new Flutter project.
+My first Flutter project. Includes-
+- Stateful and Stateless Widgets
+- Interactive Hero Animation
+- Oops in Dart
 
 ## Getting Started
 
